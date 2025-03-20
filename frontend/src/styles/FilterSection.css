@@ -1,0 +1,58 @@
+.filterSection {
+    /*border: 1px solid green;*/
+    background-color: #DEDEDE;
+    width: 50%;
+    min-width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em;
+    border-radius: 1em;
+    color: var(--lightest-blue);
+    /*height: 50vh;*/
+    /*max-height: 50vh;*/
+}
+
+.search-bar-div {
+    /*border: 1px solid pink;*/
+    /*display: flex;*/
+    /*width: 20vw;*/
+    /*margin: 1em;*/
+    overflow: hidden !important;
+}
+
+.sort-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*color: var(--lightest-blue);*/
+}
+
+.sort-select-input {
+    width: 50%;
+}
+
+.select-wrapper {
+    margin-top: 1em;
+}
+
+.select-wrapper label, .sort-wrapper label {
+    margin-bottom: 0.25rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.react-select {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+@media (min-width: 950px) {
+    .filterSection {
+        width: 90%;
+        margin-top: 2em;
+        /*padding: .5em;*/
+    }
+
+}
+

@@ -1,0 +1,42 @@
+ol {
+  list-style: none;
+  counter-reset: list;
+  padding: 0 1rem;
+}
+
+.resource-item-wrapper {
+  max-width: 50rem;
+  box-shadow: 0.1rem 0.1rem 1.5rem rgba(0, 0, 0, 0.3);
+  border-radius: 0.75rem;
+  overflow: hidden;
+  margin: 3rem auto;
+  padding: 3rem 2rem 2rem;
+}
+
+.buttons-group {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.edit-resource-btn-wrapper {
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.add-btn-resources {
+  padding: 0.5rem 2rem;
+  font-size: 1.5rem;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 auto;
+  color: white;
+  margin-right: 1.5rem;
+  color: rgb(70 70 70);
+  font-size: 2.25rem;
+  margin: 0 0 1rem;
+}

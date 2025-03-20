@@ -1,0 +1,30 @@
+.card-background {
+  width: 5vw;
+  /*border: 1px solid black;*/
+  max-width: 30vw;
+  background-color: var(--lightest-blue);
+  border-radius: 1em;
+  transition: background-color 1s ease-out 50ms;
+}
+
+/* .card-background:hover {
+
+    background-color: var(--darker-blue);
+} */
+
+@media (min-width: 950px) {
+  .card-background {
+    width: 7vw;
+    /*border: 2px solid magenta;*/
+    max-width: 30vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-background {
+    min-width: 22vw;
+    max-width: 25vw;
+    /*width: 10vw;*/
+    /*border: 2px solid orange;*/
+  }
+}
